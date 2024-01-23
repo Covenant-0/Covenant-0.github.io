@@ -51,9 +51,9 @@ img {aspect-ratio:1;
      border-radius:30px;
      max-width: 100%;
      display: block;
-     padding:10px auto;
+     margin:20px auto;
 }
-.img{margin:20px auto;
+.img{margin:40px auto;
     background-color:white;
     border-radius:30px;}
 
