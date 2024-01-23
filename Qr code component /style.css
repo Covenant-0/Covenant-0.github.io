@@ -54,10 +54,15 @@ img {aspect-ratio:1;
      display: block;
      margin:20px;
 }
-.img{margin:20px auto;
+.img{margin: auto;
     background-color:white;
     border-radius:30px;
-    max-width:40rem;}
+    max-width:40rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:15px;}
 
 input,
 button,
