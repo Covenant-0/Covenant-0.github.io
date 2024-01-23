@@ -55,7 +55,8 @@ img {aspect-ratio:1;
 }
 .img{margin:20px auto;
     background-color:white;
-    border-radius:30px;}
+    border-radius:30px;
+    max-width:2rem;}
 
 input,
 button,
