@@ -33,6 +33,7 @@ body {
   font-size:15px; 
   font-family: [Outfit](https://fonts.google.com/specimen/Outfit);
   font-weight:400,700;
+  text-align: center;
 }
 
 /* A elements that don't have a class get default styles */
