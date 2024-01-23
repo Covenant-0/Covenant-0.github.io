@@ -29,7 +29,10 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.5; 
+  font-size:15px; 
+  font-family: [Outfit](https://fonts.google.com/specimen/Outfit);
+  font-weight:400,700;
 }
 
 /* A elements that don't have a class get default styles */
