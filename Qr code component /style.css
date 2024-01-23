@@ -26,7 +26,7 @@ html:focus-within {
 }
 
 /* Set core body defaults */
-body {
+body {background-color: hsl(212, 45%, 89%);
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5; 
@@ -38,20 +38,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align:center;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
-main{padding:2px;}
-/* Make images easier to work with */
+main{margin:50px;}
+
 img {aspect-ratio:1; border-radius:30px;
   max-width: 100%;
   display: block;
 }
+.img{margin:20px auto;}
 
-/* Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
@@ -59,7 +60,7 @@ select {
   font: inherit;
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
    scroll-behavior: auto;
