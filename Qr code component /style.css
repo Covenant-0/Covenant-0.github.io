@@ -63,7 +63,7 @@ img {aspect-ratio:1;
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    padding:15px;}
+    margin:20px;}
 
 input,
 button,
