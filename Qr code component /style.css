@@ -58,7 +58,7 @@ img {aspect-ratio:1;
 .img{
     background-color:white;
     border-radius:30px;
-    max-width:20rem;
+    max-width:30rem;
     display:flex;
     flex-direction:column;
     justify-content: center;
